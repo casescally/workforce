@@ -124,7 +124,7 @@
         {
             "id": 2,
             "employeeId": 2,
-            "customerId": 3,
+            "customerId": 2,
             "rate": "$24/hr",
             "contractLength": "6 months"
         },

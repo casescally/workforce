@@ -17,12 +17,12 @@ export const CustomerList = () => {
         contentTarget.innerHTML = customers.map(customer => {
 
                     // Find all the customer relationships
-                    const relationships = customerRelationships.filter(ec => ec.employeeId === customer.id)
+                    const relationships = customerRelationships.filter(ec => ec.customerId === customer.id)
 
                     // Find the related employee for each relationship
                     const assignedEmployees = relationships.map(rel => {
                     //find customers by comparing the customers id to the id in the join table
-                    const foundEmployees = employees.find(employee => employee.id === rel.id)
+                    const foundEmployees = employees.find(employee => employee.id === rel.employeeId)
 
                     return foundEmployees
                     })
