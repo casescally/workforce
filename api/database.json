@@ -1,0 +1,146 @@
+{
+    "computers": [
+        {
+            "id": 1,
+            "model": "Macbook Pro",
+            "year": 2015
+        },
+        {
+            "id": 2,
+            "model": "Dell Latitude",
+            "year": 2003
+        },
+        {
+            "id": 3,
+            "model": "Razer Blade",
+            "year": 2014
+        },
+        {
+            "id": 4,
+            "model": "HP Spectre",
+            "year": 2017
+        }
+    ],
+    "employees": [
+        {
+            "id": 1,
+            "age": 33,
+            "firstName": "Rainu",
+            "lastName": "Ittycheriah",
+            "computerId": 1,
+            "departmentId": 2,
+            "locationId": 4
+        },
+        {
+            "id": 2,
+            "age": 22,
+            "firstName": "John",
+            "lastName": "Doe",
+            "computerId": 3,
+            "departmentId": 1,
+            "locationId": 3
+        },
+        {
+            "id": 3,
+            "age": 40,
+            "firstName": "Bob",
+            "lastName": "Ross",
+            "computerId": 4,
+            "departmentId": 4,
+            "locationId": 1
+        },
+        {
+            "id": 4,
+            "age": 55,
+            "firstName": "Steve",
+            "lastName": "Goodman",
+            "computerId": 2,
+            "departmentId": 3,
+            "locationId": 2
+        }
+    ],
+    "departments": [
+        {
+            "id": 1,
+            "departmentName": "Information Technology"
+        },
+        {
+            "id": 2,
+            "departmentName": "Human Resources"
+        },
+        {
+            "id": 3,
+            "departmentName": "Marketing"
+        },
+        {
+            "id": 4,
+            "departmentName": "Accounting"
+        }
+    ],
+    "locations": [
+        {
+            "id": 1,
+            "locationName": "Memphis Office"
+        },
+        {
+            "id": 2,
+            "locationName": "Nashville Office"
+        },
+        {
+            "id": 3,
+            "locationName": "Chattanooga Office"
+        },
+        {
+            "id": 4,
+            "locationName": "Knoxville Office"
+        }
+    ],
+    "customers": [
+        {
+            "id": 1,
+            "businessName": "Juniper Distribution"
+        },
+        {
+            "id": 2,
+            "businessName": "Madgrigal ElectroAutomotive"
+        },
+        {
+            "id": 3,
+            "businessName": "Acme Company"
+        },
+        {
+            "id": 4,
+            "businessName": "ABC Inc."
+        }
+    ],
+    "employeeCustomers": [
+        {
+            "id": 1,
+            "employeeId": 1,
+            "customerId": 3,
+            "rate": "$75/hr",
+            "contractLength": "1 year"
+        },
+        {
+            "id": 2,
+            "employeeId": 2,
+            "customerId": 3,
+            "rate": "$24/hr",
+            "contractLength": "6 months"
+        },
+        {
+            "id": 3,
+            "employeeId": 3,
+            "customerId": 4,
+            "rate": "$32/hr",
+            "contractLength": "3 years"
+        },
+        {
+            "id": 4,
+            "employeeId": 4,
+            "customerId": 1,
+            "rate": "$96/hr",
+            "contractLength": "5 years"
+        }
+    ]
+}
